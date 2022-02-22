@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B745C1F82739668F003E7CFF /* MainHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C1EA2739668F003E7CFF /* MainHomeView.swift */; };
+		B745C1F92739668F003E7CFF /* NoteCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C1EB2739668F003E7CFF /* NoteCreateView.swift */; };
+		B745C1FA2739668F003E7CFF /* NotebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C1EC2739668F003E7CFF /* NotebookView.swift */; };
+		B745C1FB2739668F003E7CFF /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C1EE2739668F003E7CFF /* CanvasView.swift */; };
+		B745C1FC2739668F003E7CFF /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C1EF2739668F003E7CFF /* MainPageView.swift */; };
+		B745C1FD2739668F003E7CFF /* RichTextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C1F02739668F003E7CFF /* RichTextEditorView.swift */; };
+		B745C1FE2739668F003E7CFF /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C1F12739668F003E7CFF /* ImagePickerView.swift */; };
+		B745C1FF2739668F003E7CFF /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C1F32739668F003E7CFF /* ColorPickerView.swift */; };
+		B745C2002739668F003E7CFF /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C1F42739668F003E7CFF /* ColorView.swift */; };
+		B745C2012739668F003E7CFF /* MainPagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C1F62739668F003E7CFF /* MainPagesView.swift */; };
+		B745C2022739668F003E7CFF /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C1F72739668F003E7CFF /* PageView.swift */; };
+		B763AF5F273964C3003B9F1F /* NbooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B763AF5E273964C3003B9F1F /* NbooksApp.swift */; };
+		B763AF63273964C4003B9F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B763AF62273964C4003B9F1F /* Assets.xcassets */; };
+		B763AF66273964C4003B9F1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B763AF65273964C4003B9F1F /* Preview Assets.xcassets */; };
+		C995AC8D090D6520ACE8EDDA /* Pods_Nbooks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168ABBABC73718668EA0B776 /* Pods_Nbooks.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		168ABBABC73718668EA0B776 /* Pods_Nbooks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nbooks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE76DAEC3529179347F03A0 /* Pods-Nbooks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nbooks.debug.xcconfig"; path = "Target Support Files/Pods-Nbooks/Pods-Nbooks.debug.xcconfig"; sourceTree = "<group>"; };
+		849FEB7EBDB8A1694F03A3A0 /* Pods-Nbooks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nbooks.release.xcconfig"; path = "Target Support Files/Pods-Nbooks/Pods-Nbooks.release.xcconfig"; sourceTree = "<group>"; };
+		B745C1EA2739668F003E7CFF /* MainHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainHomeView.swift; sourceTree = "<group>"; };
+		B745C1EB2739668F003E7CFF /* NoteCreateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteCreateView.swift; sourceTree = "<group>"; };
+		B745C1EC2739668F003E7CFF /* NotebookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotebookView.swift; sourceTree = "<group>"; };
+		B745C1EE2739668F003E7CFF /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		B745C1EF2739668F003E7CFF /* MainPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		B745C1F02739668F003E7CFF /* RichTextEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichTextEditorView.swift; sourceTree = "<group>"; };
+		B745C1F12739668F003E7CFF /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		B745C1F32739668F003E7CFF /* ColorPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		B745C1F42739668F003E7CFF /* ColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		B745C1F62739668F003E7CFF /* MainPagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPagesView.swift; sourceTree = "<group>"; };
+		B745C1F72739668F003E7CFF /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		B763AF5B273964C3003B9F1F /* Nbooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nbooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B763AF5E273964C3003B9F1F /* NbooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NbooksApp.swift; sourceTree = "<group>"; };
+		B763AF62273964C4003B9F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B763AF65273964C4003B9F1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B763AF58273964C3003B9F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C995AC8D090D6520ACE8EDDA /* Pods_Nbooks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5021BFB543925AF01F012411 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BE76DAEC3529179347F03A0 /* Pods-Nbooks.debug.xcconfig */,
+				849FEB7EBDB8A1694F03A3A0 /* Pods-Nbooks.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		717D44287EA16CA67B2EDB6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				168ABBABC73718668EA0B776 /* Pods_Nbooks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B745C1E82739668F003E7CFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B745C1E92739668F003E7CFF /* Home */,
+				B745C1ED2739668F003E7CFF /* Page */,
+				B745C1F22739668F003E7CFF /* Reuseable */,
+				B745C1F52739668F003E7CFF /* Notebook */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B745C1E92739668F003E7CFF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B745C1EA2739668F003E7CFF /* MainHomeView.swift */,
+				B745C1EB2739668F003E7CFF /* NoteCreateView.swift */,
+				B745C1EC2739668F003E7CFF /* NotebookView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B745C1ED2739668F003E7CFF /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				B745C1EF2739668F003E7CFF /* MainPageView.swift */,
+				B745C1EE2739668F003E7CFF /* CanvasView.swift */,
+				B745C1F02739668F003E7CFF /* RichTextEditorView.swift */,
+				B745C1F12739668F003E7CFF /* ImagePickerView.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		B745C1F22739668F003E7CFF /* Reuseable */ = {
+			isa = PBXGroup;
+			children = (
+				B745C1F32739668F003E7CFF /* ColorPickerView.swift */,
+				B745C1F42739668F003E7CFF /* ColorView.swift */,
+			);
+			path = Reuseable;
+			sourceTree = "<group>";
+		};
+		B745C1F52739668F003E7CFF /* Notebook */ = {
+			isa = PBXGroup;
+			children = (
+				B745C1F62739668F003E7CFF /* MainPagesView.swift */,
+				B745C1F72739668F003E7CFF /* PageView.swift */,
+			);
+			path = Notebook;
+			sourceTree = "<group>";
+		};
+		B763AF52273964C3003B9F1F = {
+			isa = PBXGroup;
+			children = (
+				B763AF5D273964C3003B9F1F /* Nbooks */,
+				B763AF5C273964C3003B9F1F /* Products */,
+				5021BFB543925AF01F012411 /* Pods */,
+				717D44287EA16CA67B2EDB6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B763AF5C273964C3003B9F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B763AF5B273964C3003B9F1F /* Nbooks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B763AF5D273964C3003B9F1F /* Nbooks */ = {
+			isa = PBXGroup;
+			children = (
+				B745C1E82739668F003E7CFF /* Views */,
+				B763AF5E273964C3003B9F1F /* NbooksApp.swift */,
+				B763AF62273964C4003B9F1F /* Assets.xcassets */,
+				B763AF64273964C4003B9F1F /* Preview Content */,
+			);
+			path = Nbooks;
+			sourceTree = "<group>";
+		};
+		B763AF64273964C4003B9F1F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B763AF65273964C4003B9F1F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B763AF5A273964C3003B9F1F /* Nbooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B763AF69273964C4003B9F1F /* Build configuration list for PBXNativeTarget "Nbooks" */;
+			buildPhases = (
+				097FDB502286373E034BDD4E /* [CP] Check Pods Manifest.lock */,
+				B763AF57273964C3003B9F1F /* Sources */,
+				B763AF58273964C3003B9F1F /* Frameworks */,
+				B763AF59273964C3003B9F1F /* Resources */,
+				F2162971AC20E04FF3E0ACA8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nbooks;
+			productName = Nbooks;
+			productReference = B763AF5B273964C3003B9F1F /* Nbooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B763AF53273964C3003B9F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B763AF5A273964C3003B9F1F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = B763AF56273964C3003B9F1F /* Build configuration list for PBXProject "Nbooks" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B763AF52273964C3003B9F1F;
+			productRefGroup = B763AF5C273964C3003B9F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B763AF5A273964C3003B9F1F /* Nbooks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B763AF59273964C3003B9F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B763AF66273964C4003B9F1F /* Preview Assets.xcassets in Resources */,
+				B763AF63273964C4003B9F1F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		097FDB502286373E034BDD4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nbooks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2162971AC20E04FF3E0ACA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nbooks/Pods-Nbooks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nbooks/Pods-Nbooks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nbooks/Pods-Nbooks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B763AF57273964C3003B9F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B745C1FD2739668F003E7CFF /* RichTextEditorView.swift in Sources */,
+				B745C1F92739668F003E7CFF /* NoteCreateView.swift in Sources */,
+				B745C2002739668F003E7CFF /* ColorView.swift in Sources */,
+				B745C1FC2739668F003E7CFF /* MainPageView.swift in Sources */,
+				B745C2022739668F003E7CFF /* PageView.swift in Sources */,
+				B745C1FF2739668F003E7CFF /* ColorPickerView.swift in Sources */,
+				B745C2012739668F003E7CFF /* MainPagesView.swift in Sources */,
+				B745C1FE2739668F003E7CFF /* ImagePickerView.swift in Sources */,
+				B745C1FB2739668F003E7CFF /* CanvasView.swift in Sources */,
+				B745C1F82739668F003E7CFF /* MainHomeView.swift in Sources */,
+				B745C1FA2739668F003E7CFF /* NotebookView.swift in Sources */,
+				B763AF5F273964C3003B9F1F /* NbooksApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B763AF67273964C4003B9F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B763AF68273964C4003B9F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B763AF6A273964C4003B9F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE76DAEC3529179347F03A0 /* Pods-Nbooks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nbooks/Preview Content\"";
+				DEVELOPMENT_TEAM = V48D8URN25;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassanelabdallah.Nbooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B763AF6B273964C4003B9F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 849FEB7EBDB8A1694F03A3A0 /* Pods-Nbooks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nbooks/Preview Content\"";
+				DEVELOPMENT_TEAM = V48D8URN25;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassanelabdallah.Nbooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B763AF56273964C3003B9F1F /* Build configuration list for PBXProject "Nbooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B763AF67273964C4003B9F1F /* Debug */,
+				B763AF68273964C4003B9F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B763AF69273964C4003B9F1F /* Build configuration list for PBXNativeTarget "Nbooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B763AF6A273964C4003B9F1F /* Debug */,
+				B763AF6B273964C4003B9F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B763AF53273964C3003B9F1F /* Project object */;
+}
